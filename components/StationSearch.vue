@@ -80,9 +80,7 @@ const testDate = (event: Event) => {
               id="datetime"
               type="datetime-local"
               name="datetime-local"
-              :default-value="dateTime"
-              :value="dateTime"
-              @input="testDate"
+              v-model="dateTime"
               class="w-full"
             />
             <Button type="button" @click="nowButtonClick">Now</Button>
