@@ -116,8 +116,7 @@ const formSubmit = async (event: Event) => {
               id="datetime"
               type="datetime-local"
               name="datetime-local"
-              :default-value="dateTime"
-              :value="dateTime"
+              v-model="dateTime"
               class="w-full"
             />
             <Button type="button" @click="nowButtonClick">Now</Button>

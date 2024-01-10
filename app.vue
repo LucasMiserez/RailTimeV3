@@ -32,13 +32,19 @@ const handleConnectionSearchResult = (result: any) => {
       <Container>
         <TrainPlanner @connectionSearchResult="handleConnectionSearchResult" />
       </Container>
-      <Container>
+      <Container class="lg:hidden block">
+        <ConnectionResults :connectionSearchResult="connectionSearchResult" />
+      </Container>
+      <Container class="hidden lg:block">
         <StationSearch @searchResult="handleSearchResult" />
       </Container>
     </div>
     <div class="col-span-2 grid items-start gap-6 lg:col-span-1">
-      <Container>
+      <Container class="hidden lg:block">
         <ConnectionResults :connectionSearchResult="connectionSearchResult" />
+      </Container>
+      <Container class="lg:hidden block">
+        <StationSearch @searchResult="handleSearchResult" />
       </Container>
       <Container>
         <StationResults :searchResult="searchResult" />
