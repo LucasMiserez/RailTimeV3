@@ -11,7 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import moment from "moment/moment";
+import moment from "moment";
 import { ref } from "vue";
 import type { RootConnections, StationClass } from "~/interfaces";
 const dateTime = ref(String(moment(Date.now()).format("YYYY-MM-DDTHH:mm")));
