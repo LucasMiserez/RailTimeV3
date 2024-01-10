@@ -49,7 +49,7 @@ const formSubmit = async (event: Event) => {
 <template>
   <Card>
     <CardHeader class="space-y-1">
-      <CardTitle> Start your yourney </CardTitle>
+      <CardTitle> Find your connection </CardTitle>
     </CardHeader>
     <CardContent>
       <form class="grid gap-4" @submit="formSubmit">
