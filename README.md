@@ -1,4 +1,4 @@
-# RailTime V3
+# RailTime V3 [![wakatime](https://wakatime.com/badge/user/018baf2c-ecc4-43a2-9828-f76d2c071335/project/018cedc1-e1b5-4bc3-823f-38260b6d0ebf.svg)](https://wakatime.com/badge/user/018baf2c-ecc4-43a2-9828-f76d2c071335/project/018cedc1-e1b5-4bc3-823f-38260b6d0ebf)
 
 ![Banner-Light](bannerdarkmode.png#gh-dark-mode-only)![banner-Dark](bannerlightmode.png#gh-light-mode-only)
 
